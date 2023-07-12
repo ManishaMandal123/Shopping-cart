@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 20px;
+  background: whitesmoke;
+}
+img{
+  height: 80px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.productsWrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.btn{
+  border:none;
+  outline: none;
+  background: #764abc;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+  background: #326282;
+}
+.heading{
+  padding: -25px 0;
+}
+.cartCount{
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+.navLink{
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  
+}
+.cartCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 14px;
+  border-radius: 5px;
+}
